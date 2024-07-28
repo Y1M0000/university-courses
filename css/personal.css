@@ -1,0 +1,160 @@
+@import url(./public.css);
+
+/* 个人名片 */
+.card{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #bbb;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.information{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.information>img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+.information-name-sign{
+    height: 17vw;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.information-name-sign span:nth-of-type(1){
+    font-size: 25px;
+    font-weight: bold;
+}
+.information-name-sign span:nth-of-type(2){
+    font-size: 14px;
+    color: #bbb;
+}
+.bar{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.bar div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bar div span:nth-of-type(1){
+    font-size: 26px;
+}
+.bar div span:nth-of-type(2){
+    font-size: 16px;
+    color: #bbb;   
+}
+
+
+
+.state-platform{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(10, 0, 42);
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #bbb;
+    margin: 10px 0;
+
+}
+.state-switch{
+    width       : 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(2, 2, 66);
+
+}
+.state-switch span{
+    font-size: 25px;
+    padding: 5px 20px;
+    color: #bbb;
+    
+}
+.platform{
+    
+   
+
+}
+
+.platform-information{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.platform-information>img{
+    width: 10vw;
+    height: 10vw;
+    border:1px solid #000;
+    margin-left: 20px;
+
+}
+.platform-information-name-state{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+
+}
+.platform-information-name-state span:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.platform-information-name-state span:nth-of-type(2){
+    font-size: 14px;
+    color: #bbb;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.platform-bar-frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+
+}
+.platform-bar{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+   
+}
+.platform-bar div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+}
+.platform-bar div span:nth-of-type(1){
+    font-size: 27px;
+    color: #fff;
+    
+}
+.platform-bar div span:nth-of-type(2){
+    font-size: 16px;
+    color: #bbb;   
+}
+.icon-youjiantou{
+    font-size: 26px;
+    color: #bbb;
+    margin: 0 10px;
+
+}

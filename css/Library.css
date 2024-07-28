@@ -1,0 +1,244 @@
+    @import url(./public.css);
+
+    /* 轮播图 */
+.swiper{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 30px;
+}
+.swiper-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+
+.sale{
+    margin: 10px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    display         : flex;
+    justify-content   : space-between;
+    align-items     : center;
+}
+.more{
+    display         : flex;
+    justify-items   : center;
+    align-items     : center;
+    font-size: 17px;
+}
+.more .iconfont{
+    font-size: 17px;
+}
+
+.goods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.goods>div{
+    width:  45vw;
+    margin: 10px 0;
+}
+.goods-img{
+    width: 45vw;
+    height: 28vw;
+    border-radius: 8px;
+}
+.goods-title{
+    /* 不能设置高，要不然会无效 */
+    width             :100%;
+    /* 作为伸缩（自适应）盒子模型展示 */
+    display           : -webkit-box;
+    /* 显示的行数，将容器的文字限制位指定的行数，并用省略号填充尾部 */
+    -webkit-line-clamp: 1;
+    /* 设置伸缩盒子的子元素排列方式 */
+    -webkit-box-orient: vertical;
+    /* 超出部分隐藏 */
+    overflow          : hidden;
+    font-size         : 18px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 10px;
+
+}
+.textual-like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goods-money-sale{
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #e9eaed;
+    line-height: 100%;
+
+}
+.goods-money{
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 5px;
+    font-weight: bold;
+    color: #000;
+}
+.goods-sale{
+    display: inline-block;
+    font-size: 12px;
+    height: 100%;
+    background-color: #000;
+    color: #f7f7f7;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+
+.classify{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    color: grey;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* 排行榜 */
+main>ul{
+    background-color: #f7f7f7;
+}
+main>ul>li{
+    /* 隐藏 */
+    display: none;
+
+}
+.show{
+     /* 显示 */
+     display: block;
+}
+
+.module-switch1{
+    width       : 100%;
+    height      : 60px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.current{
+    font-weight: bold;
+    color      : #000 !important;
+    position: relative;
+}
+.current::after{
+    content: "";
+    position        : absolute;
+    width           : 62px;
+    height          : 3px;
+    background-color: #000;
+    left            : 20px;
+    bottom          : -10px;
+}
+
+.module-switch1 a{
+    font-size: 20px;
+    color    : #818181;
+    padding  : 0px 20px;
+}
+ul li a{
+    padding: 0px 5px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textual-img{
+    width: 45vw;
+    height: 25vw; 
+    border-radius: 15px;
+    position: relative;
+}
+
+.textual-img img{
+    border-radius: 15px;
+    padding: 5px;
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.icon-steam{
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.714);
+    color: #fff;
+    position: absolute;
+    padding: 5px;
+    margin: 6px;
+    font-size: 12px;
+
+}
+
+.textual{
+    width: 60vw;
+    height: 26vw;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textual-title{
+    /* 不能设置高，要不然会无效 */
+    width             :100%;
+    /* 作为伸缩（自适应）盒子模型展示 */
+    display           : -webkit-box;
+    /* 显示的行数，将容器的文字限制位指定的行数，并用省略号填充尾部 */
+    -webkit-line-clamp: 2;
+    /* 设置伸缩盒子的子元素排列方式 */
+    -webkit-box-orient: vertical;
+    /* 超出部分隐藏 */
+    overflow          : hidden;
+    font-size         : 20px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 10px;
+
+}
+.textual-like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.textual-money{
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f3f4f6;
+    font-weight: bold;
+    color: #000;
+}
+
+.textual-comment{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #fa8f22;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+

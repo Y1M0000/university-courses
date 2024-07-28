@@ -1,0 +1,123 @@
+/* 导入css文件 iconfont.css */
+/* @import url(../font/iconfont.css); */
+@import url(//at.alicdn.com/t/c/font_4618321_yb7kd6j71jr.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    display         : flex;
+    justify-content : space-evenly;
+    align-items     : center;
+    width           : 100%;
+    height          : 70px;
+    position        : fixed;
+    left            : 0;
+    top             : 0;
+    z-index         : 100;
+    background-color: #fff;
+}
+header>div{
+    width           : 75%;
+    height          : 40px; 
+    border-radius   : 5px;
+    background-color: gainsboro;
+    display         : flex;
+    align-items     : center;
+    font-size       : 18px ;
+}
+header div .iconfont{
+    margin: 0 12px;
+    font-size: 25px;
+    color: grey;
+}
+header div input{
+    width: 80%;
+    font-size: 18px;
+    background-color: gainsboro;
+    color: gray;
+    text-align: center;
+
+}
+header .iconfont-tubiao{
+    font-size: 30px;
+    color: #000;
+}
+main{
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
+.module-switch{
+    width       : 100%;
+    height      : 60px;
+    /* 固定位置 */
+    position    : fixed;
+    left        : 0;
+    top         : 60px;
+    z-index     : 100;
+    display     : flex;
+    align-items : center;
+    background-color: #fff;
+}
+.module-switch a{
+    font-size: 20px;
+    color    : #818181;
+    padding  : 0px 20px;
+}
+.current{
+    font-weight: bold;
+    color      : #000 !important;
+}
+.after-slider{
+    position        : absolute;
+    width           : 37px;
+    height          : 3px;
+    background-color: #000;
+    left            : 20px;
+    bottom          : 3px;
+}
+main>ul{
+    background-color: #f7f7f7;
+    padding         : 10px 0;
+}
+
+
+
+
+
+
+footer{
+    width           : 100%;
+    height          : 65px;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+    position        : fixed;
+    left            : 0;
+    bottom          : 0;
+    z-index         : 100;
+    background-color: #fff;
+}
+
+footer a{
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    color         : #818181;
+}
+footer a .iconfont{
+    font-size: 35px;
+}
+footer a .menu{
+    font-size: 10px;
+}
+footer .active{
+    color: #000;
+}

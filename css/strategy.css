@@ -1,0 +1,171 @@
+@import url(./public.css);
+
+
+
+/* ----------------------------攻略收藏集-start------------------------------ */
+.collection{
+    /* 超出部分隐藏 */
+    overflow: hidden;
+    margin: 20px 0 30px;
+}
+.collection-Name{
+    margin: 10px 10px;
+    font-size: 22px;
+    font-weight: bold;
+    display         : flex;
+    justify-content   : space-between;
+    align-items     : center;
+}
+.more{
+    display         : flex;
+    justify-items   : center;
+    align-items     : center;
+    font-size: 14px;
+    color: #818181;
+}
+.more .iconfont{
+    font-size: 17px;
+    color: #818181;
+}
+.scroll{
+    /* width: 1200px;
+    border: 1px solid green; */
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.movie-item{
+    display: inline-block;
+    position: relative;
+    margin-right: 7px;
+    /* border: 1px solid red; */
+    
+}
+.movie-item img{
+    width: 100px;
+    height: 150px;
+    border-radius: 4px;
+}
+.movie-item p{
+    display           : -webkit-box;
+    -webkit-line-clamp: 1;
+    width: 100px;
+    -webkit-box-orient: vertical;
+    overflow          : hidden;
+    font-size: 13px;
+    font-weight: bold;
+}
+.score{
+    color: #818181 !important;
+    font-size: 11px;
+}
+/* ----------------------------攻略收藏集-end------------------------------ */
+
+
+
+
+
+
+.ranking-list{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.ranking-list>div{
+    display: inline-block;
+    vertical-align: top;
+}
+.ranking-item{
+    width: 290px;
+    height: 270px;
+    background-image: url(../img/ForstPunk3.jpg);
+    /* 去除重复 */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    margin: 30px 15px;
+    padding: 15px;
+    color: #fff;
+}
+.ranking-item .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ranking-item .title h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.ranking-item .title span{
+    font-size: 12px;
+}
+
+.item-body>div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.item-body>div img{
+    width: 40px;
+    height: 60px;
+    margin       : 0 25px;
+    border-radius: 5px;
+}
+.item-body .iconfont{
+    font-size: 14px !important;
+}
+
+.ranking-list .more{
+    width           : 60px;
+    height          : 270px;
+    margin-top      : 30px;
+    margin-right    : 20px;
+    border-radius   : 6px;
+    background-color: #f2f2f2;
+    display         : inline-flex;
+    flex-direction  : column;
+    justify-items   : center;
+    align-items     : center;
+    color           : #818181;
+}
+.more .iconfont{
+    font-size: 12px;
+}
+.upcoming{
+    display: flex;
+    justify-content: space-evenly;
+}
+.upcoming-item{
+    width   : 47%;
+    padding : 12px;
+    border  : 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #0000002b;
+}
+.upcoming-item>div{
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    margin-bottom   : 8px;
+}
+
+.upcoming-item>div:nth-of-type(1){
+    font-size:17px;
+}
+.upcoming-item .icon-youjianyou{
+    font-size: 12px;
+}
+.upcoming-item>div:nth-of-type(2){
+    font-size:13px;
+}
+.upcoming-item img{
+    width        : 55px;
+    height       : 50px;
+    border-radius: 8px;
+}
+
+.upcoming-item p{
+    line-height: 1.8;
+    color: #818181;
+}
